@@ -1,11 +1,13 @@
 # constructor is a magic method that is called when the object of the class is created.
 class Student:
+    college_name = "IITM"
+
     def __init__(self, name, age):
         self.name = name
         self.age = age
 
     def display(self):
-        print(f"Name is {self.name} and age is {self.age}.")
+        print(f"Name is {self.name}, age is {self.age} and College name is {self.college_name}.")
 
 
 class ClassManager:
